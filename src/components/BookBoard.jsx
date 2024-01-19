@@ -1,6 +1,10 @@
+import { useState } from "react";
+import { bookData } from "../utils/bookData";
 import SearchBox from "./SearchBox";
 
 export default function BookBoard() {
+  const [books, setBooks] = useState([bookData]);
+  console.log(books);
   return (
     <main className="my-10 lg:my-14">
       <SearchBox />
