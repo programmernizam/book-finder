@@ -37,7 +37,7 @@ export const bookData = [
     },
     {
         "id": 5,
-        "title": "Web Development with Node.js",
+        "title": "Web Development",
         "img": "/assets/book_5.jpg",
         "author": "Samantha Green",
         "rating": 4.8,
@@ -55,7 +55,7 @@ export const bookData = [
     },
     {
         "id": 7,
-        "title": "Data Structures and Algorithms in Java",
+        "title": "Data Structures",
         "img": "/assets/book_7.jpg",
         "author": "Laura Blue",
         "rating": 4.6,
@@ -73,7 +73,7 @@ export const bookData = [
     },
     {
         "id": 9,
-        "title": "PHP and MySQL Web Development",
+        "title": "PHP Web Development",
         "img": "/assets/book_9.jpg",
         "author": "Diana Purple",
         "rating": 3.9,
@@ -82,7 +82,7 @@ export const bookData = [
     },
     {
         "id": 10,
-        "title": "Learning Swift: Building Apps for macOS, iOS, and Beyond",
+        "title": "Learning Swift",
         "img": "/assets/book_10.jpg",
         "author": "Kevin Red",
         "rating": 4.5,
@@ -91,7 +91,7 @@ export const bookData = [
     },
     {
         "id": 11,
-        "title": "Cloud Computing Fundamentals",
+        "title": "Cloud Computing",
         "img": "/assets/book_11.jpg",
         "author": "Rachel Orange",
         "rating": 4.7,
@@ -101,7 +101,7 @@ export const bookData = [
     {
         "id": 12,
         "title": "Blockchain Basics",
-        "img": "/assets/book_12.jpg",
+        "img": "/assets/book_12.jpeg",
         "author": "Ethan Grey",
         "rating": 4.2,
         "favorite": true,
