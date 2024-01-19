@@ -1,10 +1,13 @@
 import { useState } from "react";
 
-export default function SearchBox({ onSearch }) {
+export default function SearchBox({ onSearch, onFilter }) {
   const [searchTerm, setSearchTerm] = useState("");
   const handleSearch = (e) => {
     e.preventDefault();
     onSearch(searchTerm);
+  };
+  const handleFilter = () => {
+    console.log(onFilter);
   };
   return (
     <header className="mb-8 lg:mb-10 mx-auto max-w-7xl">
@@ -64,6 +67,7 @@ export default function SearchBox({ onSearch }) {
             className="cursor-pointer rounded-md border px-4 py-2 text-center text-gray-600"
             name="sortBy"
             id="sortBy"
+            onChange={handleFilter}
           >
             <option value="">Sort</option>
             <option value="name_asc">Name (A-Z)</option>
