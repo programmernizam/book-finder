@@ -5,7 +5,8 @@ export const bookData = [
         "img": "/assets/book_1.jpg",
         "author": "Jane Doe",
         "rating": 4.5,
-        "favorite": false
+        "favorite": false,
+        "price": "29.99"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@ export const bookData = [
         "img": "/assets/book_2.png",
         "author": "John Smith",
         "rating": 4.2,
-        "favorite": true
+        "favorite": true,
+        "price": "24.99"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@ export const bookData = [
         "img": "/assets/book_3.jpg",
         "author": "Alice Johnson",
         "rating": 4.7,
-        "favorite": false
+        "favorite": false,
+        "price": "39.99"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@ export const bookData = [
         "img": "/assets/book_4.jpg",
         "author": "Mike Brown",
         "rating": 4.3,
-        "favorite": true
+        "favorite": true,
+        "price": "34.99"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@ export const bookData = [
         "img": "/assets/book_5.jpg",
         "author": "Samantha Green",
         "rating": 4.8,
-        "favorite": false
+        "favorite": false,
+        "price": "44.99"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@ export const bookData = [
         "img": "/assets/book_6.jpg",
         "author": "Gary White",
         "rating": 4.4,
-        "favorite": true
+        "favorite": true,
+        "price": "37.99"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@ export const bookData = [
         "img": "/assets/book_7.jpg",
         "author": "Laura Blue",
         "rating": 4.6,
-        "favorite": false
+        "favorite": false,
+        "price": "32.99"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@ export const bookData = [
         "img": "/assets/book_8.jpg",
         "author": "Chris Yellow",
         "rating": 4.1,
-        "favorite": true
+        "favorite": true,
+        "price": "29.99"
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@ export const bookData = [
         "img": "/assets/book_9.jpg",
         "author": "Diana Purple",
         "rating": 3.9,
-        "favorite": false
+        "favorite": false,
+        "price": "27.99"
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@ export const bookData = [
         "img": "/assets/book_10.jpg",
         "author": "Kevin Red",
         "rating": 4.5,
-        "favorite": true
+        "favorite": true,
+        "price": "34.99"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@ export const bookData = [
         "img": "/assets/book_11.jpg",
         "author": "Rachel Orange",
         "rating": 4.7,
-        "favorite": false
+        "favorite": false,
+        "price": "39.99"
     },
     {
         "id": 12,
@@ -93,6 +104,8 @@ export const bookData = [
         "img": "/assets/book_12.jpg",
         "author": "Ethan Grey",
         "rating": 4.2,
-        "favorite": true
+        "favorite": true,
+        "price": "24.99"
     }
 ]
+
