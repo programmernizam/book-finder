@@ -6,7 +6,8 @@ export const bookData = [
         "author": "Jane Doe",
         "rating": 4.5,
         "favorite": false,
-        "price": "29.99"
+        "price": "29.99",
+        "publishedYear": 2018
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@ export const bookData = [
         "author": "John Smith",
         "rating": 4.2,
         "favorite": true,
-        "price": "24.99"
+        "price": "24.99",
+        "publishedYear": 2019
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@ export const bookData = [
         "author": "Alice Johnson",
         "rating": 4.7,
         "favorite": false,
-        "price": "39.99"
+        "price": "39.99",
+        "publishedYear": 2020
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@ export const bookData = [
         "author": "Mike Brown",
         "rating": 4.3,
         "favorite": true,
-        "price": "34.99"
+        "price": "34.99",
+        "publishedYear": 2021
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@ export const bookData = [
         "author": "Samantha Green",
         "rating": 4.8,
         "favorite": false,
-        "price": "44.99"
+        "price": "44.99",
+        "publishedYear": 2022
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@ export const bookData = [
         "author": "Gary White",
         "rating": 4.4,
         "favorite": true,
-        "price": "37.99"
+        "price": "37.99",
+        "publishedYear": 2018
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@ export const bookData = [
         "author": "Laura Blue",
         "rating": 4.6,
         "favorite": false,
-        "price": "32.99"
+        "price": "32.99",
+        "publishedYear": 2019
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@ export const bookData = [
         "author": "Chris Yellow",
         "rating": 4.1,
         "favorite": true,
-        "price": "29.99"
+        "price": "29.99",
+        "publishedYear": 2020
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@ export const bookData = [
         "author": "Diana Purple",
         "rating": 3.9,
         "favorite": false,
-        "price": "27.99"
+        "price": "27.99",
+        "publishedYear": 2021
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@ export const bookData = [
         "author": "Kevin Red",
         "rating": 4.5,
         "favorite": true,
-        "price": "34.99"
+        "price": "34.99",
+        "publishedYear": 2022
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@ export const bookData = [
         "author": "Rachel Orange",
         "rating": 4.7,
         "favorite": false,
-        "price": "39.99"
+        "price": "39.99",
+        "publishedYear": 2018
     },
     {
         "id": 12,
@@ -105,7 +116,7 @@ export const bookData = [
         "author": "Ethan Grey",
         "rating": 4.2,
         "favorite": true,
-        "price": "24.99"
+        "price": "24.99",
+        "publishedYear": 2019
     }
 ]
-
