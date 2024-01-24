@@ -4,12 +4,17 @@ import BookCard from "./BookCard";
 import SearchBox from "./SearchBox";
 
 export default function BookBoard() {
-  const [books, setBooks] = useState(bookData);
+  const [books, setBooks] = useState([...bookData]);
   const handleSearch = (searchTerm) => {
-    const filteredBook = books.filter((book) =>
-      book.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
-    );
-    setBooks([...filteredBook]);
+    if (searchTerm !== "") {
+      setBooks(
+        books?.filter((book) =>
+          book?.bookName
+            ?.toLocaleLowerCase()
+            .includes(setBooks?.toLocaleLowerCase())
+        )
+      );
+    }
   };
   const handleSortFilter = () => {
     console.log("Sort Filter Clicked");
