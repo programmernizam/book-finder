@@ -4,7 +4,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between gap-x-6 max-w-7xl">
         <a href="/">
           <h1 className="text-2xl font-bold uppercase text-black">
-            BOOK FINDER
+            BOOK FINDER 
           </h1>
         </a>
         <svg
