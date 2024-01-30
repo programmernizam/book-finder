@@ -40,7 +40,7 @@ export default function BookCard({ book }) {
             onClick={() => handleFavorite()}
           >
             {isFavorite ? <FaHeart className="text-red-500" /> : <FaRegHeart />}
-            Favorite
+            Favorite 
           </button>
         </div>
       </div>
