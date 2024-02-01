@@ -35,7 +35,7 @@ export default function Header() {
               <rect width="24" height="24" fill="white" />
             </clipPath>
           </defs>
-        </svg>
+        </svg> 
       </div>
     </nav>
   );
