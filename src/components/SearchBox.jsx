@@ -62,7 +62,7 @@ export default function SearchBox({ onSearch, onSort }) {
             <option value="name_desc">Name (Z-A)</option>
             <option value="year_asc">Publication Year (Oldest)</option>
             <option value="year_desc">Publication Year (Newest)</option>
-          </select>    
+          </select>     
         </div>
       </div>
     </header>
